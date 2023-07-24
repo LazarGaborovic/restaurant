@@ -1,0 +1,38 @@
+/* HamburgerMenu.css */
+.hamburger-menu {
+  position: relative;
+}
+
+.hamburger-button {
+  display: block;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  display: none; /* Skrij hamburger meni na ekranima većim od 768 piksela */
+}
+
+/* Stilovi za hamburger ikonu (ostaviti kako je u prethodnom primjeru) */
+
+.menu-items {
+     position: absolute;
+  top: 50px;
+  left: 0;
+  background-color: #f9f9f9;
+  padding: 20px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  /* Stilovi za navigacijske opcije (ostaviti kako je u prethodnom primjeru) */
+}
+
+/* Prikaži hamburger meni samo na ekranima manjim od 768 piksela */
+@media (max-width: 768px) {
+  .hamburger-button {
+    display: block;
+  }
+
+  /* Sakrij navigacijske opcije na ekranima većim od 768 piksela */
+  
+}

@@ -1,0 +1,59 @@
+.home {
+    background-color: black !important;
+    height: 100vh;
+    background-image: url('file:///C:/Users/Lazarius/Downloads/hermes-rivera-Ww8eQWjMJWk-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header {
+  display: flex;
+  justify-content: center !important;
+  text-align: end !important;
+}
+.header-text {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center!important;
+  height: 90%;
+  font-family: 'Ysabeau SC', sans-serif;
+  text-align: center;
+}
+h1 {
+  font-size: 60px;
+}
+.p-text {
+  text-align: center;
+}
+.header-paragraph {
+  width: 50%;
+}
+.animate__animated.animate__bounce {
+  --animate-duration: 5s !important;
+}
+@media screen and (max-width: 320px) {
+  .header-text {
+    background-size: cover !important;
+    height: 100vh !important;
+    background-position: center !important;
+    align-items: start;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .home {
+    height: auto !important;
+  }
+  
+ .head {
+  font-size: 30px !important;
+  text-align: center;
+ }
+ .header-paragraph {
+  width: 100%;
+ }
+ p {
+  font-size: 10px;
+ }
+ 
+}
