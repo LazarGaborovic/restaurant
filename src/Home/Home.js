@@ -1,11 +1,9 @@
-import React from "react";
 import "./Home.css";
-import { Button, Nav, NavItem, NavLink, Navbar } from "react-bootstrap";
-import NavbarToggle from "react-bootstrap/esm/NavbarToggle";
-import NavbarCollapse from "react-bootstrap/esm/NavbarCollapse";
+import { Button} from "react-bootstrap";
 import Navigation from "./Navigation";
 
 const Home = () => {
+
   return (
     <div className="home">
       <Navigation />
@@ -23,7 +21,7 @@ const Home = () => {
           five centuries, but also the leap into electronic typesetting,
           remaining essentially unchanged
         </p>
-        <Button type="button" onClick={""}>More info</Button>
+        <Button className="button" type="button" onClick={""}>More info</Button>
         </div>
       </div>
     </div>

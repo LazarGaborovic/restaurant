@@ -1,14 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+
 import Home from './Home/Home';
 import 'animate.css';
-import Navigation from './Home/Navigation';
+import About from './About/About';
+import Scroling from './Scroling';
 
 function App() {
+  
   return (
     <div className="App">
-   
+    <Scroling />
     <Home />
+    <About />
     </div>
   );
 }
