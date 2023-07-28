@@ -1,12 +1,12 @@
-import React from 'react'
-import IntervalniNumber from "./IntervalniNumber"
+import React from "react";
+import IntervalniNumber from "./IntervalniNumber";
 import "./About.css";
 function About() {
   return (
-    <div className='about'>
+    <div className="about">
       <IntervalniNumber />
     </div>
-  )
+  );
 }
 
-export default About
+export default About;
