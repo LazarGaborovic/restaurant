@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import {MdOutlineFoodBank} from "react-icons/md"
 import "./IntervalniNumber.css";
 
 function IntervalniNumber() {
@@ -59,7 +60,8 @@ function IntervalniNumber() {
 
   return (
     <div className="number-animation">
-      <h2 className="numberguests">{currentNumber}</h2>
+     <h2 className="numberguests"> <MdOutlineFoodBank style={{fontSize:'60px'}} />{currentNumber}</h2>
+      
     </div>
   );
 }

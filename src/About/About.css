@@ -1,6 +1,13 @@
 .about {
-    display: flex;
-    justify-content: center;
-    height: 100vh;
-    background-color: blue;
+    height: 80vh;
+    background-color: rgb(23, 23, 23);
+    background-image: url('https://images.unsplash.com/photo-1554998171-706e730d721d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1170&q=80');
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+   
+}
+.container {
+     display: flex;
+    justify-content: end;
 }

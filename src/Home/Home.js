@@ -9,7 +9,7 @@ const Home = () => {
       <Navigation />
 
       <div className="header-text col-lg-12 ">
-        <div className="col-lg-6">
+        <div className="header-content col-lg-6">
         <h1 className="head m-3 animate__animated animate__bounceInLeft">
           WELCOME TO RESTORAUNT
         </h1>

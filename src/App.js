@@ -1,12 +1,12 @@
 import Home from "./Home/Home";
 import "animate.css";
 import About from "./About/About";
-import Scroling from "./Scroling";
+import Scrolling from "./Scrolling";
 
 function App() {
   return (
     <div className="App">
-      <Scroling />
+      <Scrolling />
       <Home />
       <About />
     </div>

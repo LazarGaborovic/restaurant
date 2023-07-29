@@ -4,7 +4,10 @@ import "./About.css";
 function About() {
   return (
     <div className="about">
-      <IntervalniNumber />
+      <div className="col-6">
+        {" "}
+        <IntervalniNumber />
+      </div>
     </div>
   );
 }
